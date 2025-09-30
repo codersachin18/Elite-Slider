@@ -1,0 +1,152 @@
+.elite-wrap h1 .page-title-action {
+    background: #0a7adf;
+    color: #fff;
+}
+
+#elite-images-list {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.elite-image-item {
+    position: relative;
+    padding: 6px;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+.elite-image-item img {
+    display: block;
+}
+
+.elite-image-item .elite-remove-image {
+    display: block;
+    margin-top: 6px;
+    color: #a00;
+}
+
+/* Publish Popup */
+#elite-publish-modal {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+.elite-modal-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+.elite-modal-box {
+    position: relative;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    z-index: 10001;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+.elite-modal-box h2 {
+    margin-top: 0;
+    color: #0a7adf;
+}
+.elite-shortcode-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+/* Option Cards */
+.elite-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 18px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: all 0.2s ease;
+}
+
+.elite-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.elite-card h4 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0a7adf;
+}
+
+.elite-card label,
+.elite-card input {
+  font-size: 14px;
+}
+ .elite-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.elite-cards-wrapper .elite-card {
+    flex: 1 1 220px; /* each card min 220px, auto expand */
+}
+.elite-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: all 0.2s ease;
+}
+
+.elite-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.elite-card h4 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0a7adf;
+}
+
+.elite-card input,
+.elite-card select,
+.elite-card label {
+  font-size: 14px;
+  display: block;
+  margin-top: 4px;
+}
+.elite-row-cards {
+  display: flex;
+  gap: 20px; /* space between cards */
+  flex-wrap: wrap; /* wrap if screen too small */
+}
+
+.elite-row-cards .elite-card {
+  flex: 1 1 30%; /* each card takes ~1/3 width */
+  min-width: 200px; /* optional: prevent too small on tiny screens */
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 18px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: all 0.2s ease;
+}
+
+.elite-row-cards .elite-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
