@@ -41,10 +41,5 @@ Yes, in the settings panel.
 == Upgrade Notice ==
 = 1.0 =
 First release
-## Download Elite Heading
-
-<a href="https://github.com/codersachin18/Elite-Heading/raw/main/elite-heading.zip" download>
-⬇️ Download Elite Heading
-</a>
 
 
