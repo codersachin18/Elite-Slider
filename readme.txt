@@ -41,3 +41,8 @@ Yes, in the settings panel.
 == Upgrade Notice ==
 = 1.0 =
 First release
+## 📥 Download Elite Heading Plugin
+
+Click below to download the latest version of **Elite Heading**:
+
+[![Download Elite Heading](https://img.shields.io/badge/⬇️%20Download-Elite%20Heading-blue?style=for-the-badge)](https://github.com/codersachin18/Elite-Heading/raw/main/elite-heading.zip)
